@@ -1,0 +1,60 @@
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body    {
+    background-color: #083b4c;
+}
+
+.container  {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.title  {
+    color: white;
+    text-align: center;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    font-size: 78px;
+}
+
+.cella  {
+    color: black;
+    padding:20px;
+    background-color: cornflowerblue;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.griglia    {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+.fizz   {
+    background-color: #0cd6a1;
+}
+
+.buzz   {
+    background-color: #ffd166;
+}
+
+.fizz_buzz   {
+    background-color: #f0466f;
+}
+
+.normal {
+    background-color: #1389b2;
+}
+
