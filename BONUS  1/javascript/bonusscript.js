@@ -1,3 +1,5 @@
+/*This code creates elements on the page*/
+
 const grigliaElement = document.querySelector('.griglia');
 grigliaElement.innerHTML = '';
 
